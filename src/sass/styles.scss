@@ -1,0 +1,25 @@
+@use "header";
+@use "colors";
+@use "fonts";
+@use "section-ingredients";
+@use "section-preparation";
+@use "section-time";
+@use "footer";
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(231, 42, 42, 0.521);
+  justify-content: center;
+}
+
+.container-sections {
+  display: flex;
+  margin-top: 4em;
+  gap: 1.3em;
+}
+
+.none {
+  display: none;
+}
